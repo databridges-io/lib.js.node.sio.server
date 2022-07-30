@@ -1,0 +1,40 @@
+{
+  "name": "databridges-sio-server-lib",
+  "version": "2.0.3",
+  "description": "DataBridges Node.js server Library. Register at https://www.databridges.io",
+  "keywords": [
+    "optomate",
+    "databridges",
+    "pubsub",
+    "rpc",
+    "websocket",
+    "socket.io",
+    "ws",
+    "events",
+    "realtime",
+    "real-time"
+  ],
+  "private": false,
+  "engines": {
+    "node": ">= 4.2.6"
+  },
+  "author": {
+    "name": "Optomate Technologies Private Limited.",
+    "email": "tech@optomate.io",
+    "url": "https://www.optomate.io"
+  },
+  "main": "src/dbridges.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/databridges-io/lib.js.node.sio.server.git"
+  },
+  "homepage": "https://github.com/databridges-io/lib.js.node.sio.server",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "socket.io-client": "^3.0.5",
+    "moment": "^2.29.4"
+  }
+}
